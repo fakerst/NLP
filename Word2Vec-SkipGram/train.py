@@ -176,7 +176,7 @@ def build_batch(dataset, batch_size, epoch_num):
               np.array(label_batch).astype("float32")
 
 
-# download()
+download()
 corpus = load_text8()
 
 # 打印前500个字符，简要看一下这个语料的样子
